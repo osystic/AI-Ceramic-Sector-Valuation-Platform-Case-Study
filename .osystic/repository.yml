@@ -2,7 +2,7 @@ schema_version: 2
 repository_class: public-showcase
 visibility: public
 lifecycle: maintenance
-project_status: active-production-maintenance
+project_status: completed-delivery
 owner_team: engineering
 data_classification: public
 client_identity_public: false
@@ -49,7 +49,7 @@ delivery:
 project:
   key: ai-ceramic-sector-valuation-platform
   name: AI Ceramic Sector Valuation Platform
-  status: active-maintenance
+  status: completed
 
 website:
   eligible: true
