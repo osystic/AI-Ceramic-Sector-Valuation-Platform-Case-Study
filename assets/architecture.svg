@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620" role="img" aria-labelledby="title desc">
+  <title id="title">AI Ceramic Sector Valuation Platform Architecture</title>
+  <desc id="desc">Sanitized architecture showing private financial inputs, ingestion and provenance, normalized data, deterministic analytics, AI analysis, benchmarking and controlled production delivery.</desc>
+  <rect width="1400" height="620" rx="34" fill="#06111f"/>
+  <text x="700" y="58" fill="#f8fafc" font-size="30" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">AI Ceramic Sector Valuation Platform</text>
+  <text x="700" y="88" fill="#94a3b8" font-size="16" font-family="Arial, sans-serif" text-anchor="middle">Sanitized public architecture</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="54" y="214" width="190" height="110" rx="18" fill="#10243f" stroke="#7dd3fc" stroke-width="2"/>
+    <text x="149" y="250" fill="#f8fafc" font-size="18" font-weight="700">Private Inputs</text>
+    <text x="149" y="278" fill="#bae6fd" font-size="14">Reports · Spreadsheets</text>
+    <text x="149" y="301" fill="#bae6fd" font-size="14">PDFs · Tabular Data</text>
+
+    <rect x="294" y="214" width="200" height="110" rx="18" fill="#10243f" stroke="#86efac" stroke-width="2"/>
+    <text x="394" y="250" fill="#f8fafc" font-size="18" font-weight="700">Ingestion</text>
+    <text x="394" y="278" fill="#bbf7d0" font-size="14">Validation</text>
+    <text x="394" y="301" fill="#bbf7d0" font-size="14">Provenance Controls</text>
+
+    <rect x="544" y="214" width="210" height="110" rx="18" fill="#10243f" stroke="#fde68a" stroke-width="2"/>
+    <text x="649" y="250" fill="#f8fafc" font-size="18" font-weight="700">Normalized Model</text>
+    <text x="649" y="278" fill="#fef3c7" font-size="14">Company · Country · Year</text>
+    <text x="649" y="301" fill="#fef3c7" font-size="14">Metric · Evidence Scope</text>
+
+    <rect x="804" y="144" width="220" height="110" rx="18" fill="#10243f" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="914" y="180" fill="#f8fafc" font-size="18" font-weight="700">Deterministic Core</text>
+    <text x="914" y="208" fill="#ddd6fe" font-size="14">Metrics · Rankings</text>
+    <text x="914" y="231" fill="#ddd6fe" font-size="14">Screening · Comparisons</text>
+
+    <rect x="804" y="284" width="220" height="110" rx="18" fill="#10243f" stroke="#f9a8d4" stroke-width="2"/>
+    <text x="914" y="320" fill="#f8fafc" font-size="18" font-weight="700">AI Analysis</text>
+    <text x="914" y="348" fill="#fbcfe8" font-size="14">Intent · Explanation</text>
+    <text x="914" y="371" fill="#fbcfe8" font-size="14">Evidence-grounded Narrative</text>
+
+    <rect x="1074" y="214" width="230" height="110" rx="18" fill="#10243f" stroke="#67e8f9" stroke-width="2"/>
+    <text x="1189" y="250" fill="#f8fafc" font-size="18" font-weight="700">Production Delivery</text>
+    <text x="1189" y="278" fill="#cffafe" font-size="14">Web · Benchmarking</text>
+    <text x="1189" y="301" fill="#cffafe" font-size="14">Reports · Controlled Access</text>
+  </g>
+
+  <g stroke="#94a3b8" stroke-width="3" fill="none">
+    <path d="M244 269 H294"/>
+    <path d="M494 269 H544"/>
+    <path d="M754 269 H780 V199 H804"/>
+    <path d="M754 269 H780 V339 H804"/>
+    <path d="M1024 199 H1048 V269 H1074"/>
+    <path d="M1024 339 H1048 V269 H1074"/>
+  </g>
+
+  <g fill="#94a3b8">
+    <polygon points="294,269 282,262 282,276"/>
+    <polygon points="544,269 532,262 532,276"/>
+    <polygon points="804,199 792,192 792,206"/>
+    <polygon points="804,339 792,332 792,346"/>
+    <polygon points="1074,269 1062,262 1062,276"/>
+  </g>
+
+  <text x="700" y="492" fill="#cbd5e1" font-size="18" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">Core principle: deterministic financial authority first, bounded AI explanation second</text>
+  <text x="700" y="532" fill="#94a3b8" font-size="15" font-family="Arial, sans-serif" text-anchor="middle">Client identity, company data, proprietary formulas, production endpoints and confidential implementation are excluded.</text>
+  <text x="700" y="566" fill="#64748b" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">OSYSTIC · Public engineering showcase</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Validation Model</title>
+  <desc id="desc">Validation model showing privacy checks, compile checks, deterministic regressions, evidence checks, release gates and production handoff.</desc>
+  <rect width="1400" height="520" rx="34" fill="#07111f"/>
+  <text x="700" y="58" fill="#f8fafc" font-size="30" font-family="Arial, sans-serif" text-anchor="middle" font-weight="700">Validation & Release Model</text>
+  <text x="700" y="88" fill="#94a3b8" font-size="16" font-family="Arial, sans-serif" text-anchor="middle">Sanitized view of the private delivery controls</text>
+
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="45" y="190" width="190" height="98" rx="18" fill="#10243f" stroke="#7dd3fc" stroke-width="2"/>
+    <text x="140" y="226" fill="#f8fafc" font-size="17" font-weight="700">Privacy Gate</text>
+    <text x="140" y="253" fill="#bae6fd" font-size="14">Tracked-file Policy</text>
+
+    <rect x="275" y="190" width="190" height="98" rx="18" fill="#10243f" stroke="#86efac" stroke-width="2"/>
+    <text x="370" y="226" fill="#f8fafc" font-size="17" font-weight="700">Compile Gate</text>
+    <text x="370" y="253" fill="#bbf7d0" font-size="14">Python Sources</text>
+
+    <rect x="505" y="190" width="210" height="98" rx="18" fill="#10243f" stroke="#fde68a" stroke-width="2"/>
+    <text x="610" y="226" fill="#f8fafc" font-size="17" font-weight="700">Regression Gate</text>
+    <text x="610" y="253" fill="#fef3c7" font-size="14">Deterministic Analytics</text>
+
+    <rect x="755" y="190" width="210" height="98" rx="18" fill="#10243f" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="860" y="226" fill="#f8fafc" font-size="17" font-weight="700">Evidence Gate</text>
+    <text x="860" y="253" fill="#ddd6fe" font-size="14">Scope · Grounding · Export</text>
+
+    <rect x="1005" y="190" width="190" height="98" rx="18" fill="#10243f" stroke="#f9a8d4" stroke-width="2"/>
+    <text x="1100" y="226" fill="#f8fafc" font-size="17" font-weight="700">Release Gate</text>
+    <text x="1100" y="253" fill="#fbcfe8" font-size="14">Baseline + Rollback</text>
+
+    <rect x="1235" y="190" width="125" height="98" rx="18" fill="#10243f" stroke="#67e8f9" stroke-width="2"/>
+    <text x="1297" y="226" fill="#f8fafc" font-size="17" font-weight="700">Prod</text>
+    <text x="1297" y="253" fill="#cffafe" font-size="14">Handoff</text>
+  </g>
+
+  <g stroke="#94a3b8" stroke-width="3" fill="none">
+    <path d="M235 239 H275"/>
+    <path d="M465 239 H505"/>
+    <path d="M715 239 H755"/>
+    <path d="M965 239 H1005"/>
+    <path d="M1195 239 H1235"/>
+  </g>
+  <g fill="#94a3b8">
+    <polygon points="275,239 263,232 263,246"/>
+    <polygon points="505,239 493,232 493,246"/>
+    <polygon points="755,239 743,232 743,246"/>
+    <polygon points="1005,239 993,232 993,246"/>
+    <polygon points="1235,239 1223,232 1223,246"/>
+  </g>
+
+  <text x="700" y="360" fill="#cbd5e1" font-size="17" font-family="Arial, sans-serif" text-anchor="middle">Validation protects analytical correctness, confidentiality and operational reproducibility.</text>
+  <text x="700" y="402" fill="#94a3b8" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">This public diagram does not disclose private tests, company data, acceptance thresholds or production infrastructure.</text>
+</svg>

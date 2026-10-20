@@ -1,0 +1,58 @@
+schema_version: 2
+repository_class: public-showcase
+visibility: public
+lifecycle: maintenance
+project_status: active-production-maintenance
+owner_team: engineering
+data_classification: public
+client_identity_public: false
+
+portfolio:
+  eligible: true
+  status: approved-public-showcase
+  publisher: OSYSTIC
+  presentation_standard: company-engineering-case-study
+
+source:
+  type: sanitized-client-delivery
+  confidential_source_linked: false
+  source_code_included: false
+  private_data_included: false
+  recovery_audit_reviewed: true
+
+publication:
+  last_reviewed_on: 2026-10-20
+  branded_as_osystic: true
+  reuse_boundary_defined: true
+  open_source_license_granted: false
+  contact_information_included: false
+  credentials_included: false
+  private_infrastructure_included: false
+  contract_or_payment_details_included: false
+  private_conversations_included: false
+  private_datasets_included: false
+  recovered_private_artifacts_included: false
+  independent_git_history: true
+
+claims:
+  investment_advice_claimed: false
+  financial_returns_claimed: false
+  private_company_rankings_disclosed: false
+  proprietary_formula_disclosed: false
+  public_reproducibility_of_private_results_claimed: false
+
+delivery:
+  default_branch: main
+  ci_required: true
+  production_environment: false
+
+project:
+  key: ai-ceramic-sector-valuation-platform
+  name: AI Ceramic Sector Valuation Platform
+  status: active-maintenance
+
+website:
+  eligible: true
+  status: ready-for-review
+  canonical_slug: ai-ceramic-sector-valuation-platform
+  auto_sync: true
