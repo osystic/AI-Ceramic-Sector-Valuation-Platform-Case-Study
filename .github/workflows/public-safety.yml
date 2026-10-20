@@ -30,6 +30,7 @@ jobs:
           grep -q '^  independent_git_history: true$' .osystic/repository.yml
           grep -q '^  credentials_included: false$' .osystic/repository.yml
           grep -q '^  private_datasets_included: false$' .osystic/repository.yml
+          grep -A3 '^project:$' .osystic/repository.yml | grep -q '^  status: completed$'
 
       - name: Confirm required public artifacts
         shell: bash
